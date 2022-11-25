@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea Encuesta</title>
+</head>
+<body>
+    <form action="">
+        <p><label for="nombre">Nombre</label></p>
+        <textarea id="nombre" name="nombre" rows="3" cols="50">Ingresa tu nombre</textarea>
+        <br>
+
+        <p><label for="email">Correo</label></p>
+        <textarea id="email" name="email" rows="3" cols="50">Ingresa tu correo</textarea>
+        <br>
+
+        <p><label for="edad">Edad</label></p>
+        <textarea id="edad" name="edad" rows="3" cols="50">Ingresa tu edad</textarea>
+        <br><br>
+        
+        <label for="describe">¿Que opcion te describe mejor?</label><br><br>
+        <select name="describe" id="describe">
+        <option value="estudiante">Estudiante</option>
+        <option value="trabajador">Trabajador</option>
+        <option value="apostador">Apostador</option>
+        <option value="juegos">Jugador</option>
+        </select>
+        <br>
+
+        <p>¿Recomendarías zegel a una amigo?</p>
+        <input type="radio" name="recomendacion" id="si" value="Si">
+        <label for="si">Si</label><br>
+        <input type="radio" name="recomendacion" id="no" value="No">
+        <label for="no">No</label><br>
+        <input type="radio" name="recomendacion" id="talvez" value="Tal vez">
+        <label for="talvez">Tal vez</label><br>
+        
+        <p>Languages y Frameworks conocidos (marque todos los que correspondan)</p>
+        <input type="checkbox" name="c" id="c" value="C">
+        <label for="c">C</label><br>
+        <input type="checkbox" name="c++" id="c++" value="C++">
+        <label for="c++">C++</label><br>
+        <input type="checkbox" name="c#" id="c#" value="C#">
+        <label for="c#">C#</label><br>
+        <input type="checkbox" name="java" id="java" value="Java">
+        <label for="java">Java</label><br>
+        <input type="checkbox" name="python" id="python" value="Python">
+        <label for="python">Python</label><br>
+        <input type="checkbox" name="javis" id="javis" value="JavaScript">
+        <label for="javis">JavaScript</label><br>
+        <input type="checkbox" name="react" id="react" value="React">
+        <label for="react">React</label><br>
+        <input type="checkbox" name="angular" id="angular" value="angular">
+        <label for="angular">Angular</label><br>
+        <input type="checkbox" name="django" id="django" value="Django">
+        <label for="django">Django</label><br>
+        <input type="checkbox" name="spring" id="spring" value="Spring">
+        <label for="spring">Spring</label><br>
+
+        <p><label for="sugerencias">Cualquier comentario o sugerencia</label></p>
+        <textarea id="nombre" name="nombre" rows="3" cols="50">Cualquier comentario o sugerencia</textarea>
+        <br><br>
+
+        <input type="submit" value="Enviar">
+        
+    </form>
+    
+</body>
+</html>
